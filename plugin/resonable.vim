@@ -12,6 +12,7 @@
     set colorcolumn=80,120
     set list
     set listchars=tab:↠.,precedes:◀,trail:◀,extends:◀
+    set mouse=nv
     filetype plugin indent on
 
     " Arrange new splits below and right. Because we are civilized adults in 
