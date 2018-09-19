@@ -20,6 +20,8 @@
     set splitright
     set splitbelow
 
+    let g:markdown_fenced_languages = ['sql', 'rust', 'html', 'python', 'bash=sh']
+    autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 " }}}
 
 " Alt + Arrow Key to move code blocks up and down
